@@ -72,6 +72,7 @@
 </div>
 <div class="content">
     <!-- Aquí puedes agregar cualquier contenido adicional que desees en el cuerpo de la página -->
+    <a href="RegistCafe.jsp">registrar cafetin</a>
 </div>
 <% } %>
 </body>

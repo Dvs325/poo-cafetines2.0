@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Éxito</title>
+    <title>Error</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -20,6 +20,9 @@
             margin: 0 auto;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: red;
         }
         button {
             width: 100%;
@@ -37,9 +40,9 @@
 </head>
 <body>
 <div class="box">
-    <h1>¡Éxito!</h1>
-    <p>AGREGADO</p>
-    <button onclick="window.location.href = 'index.jsp';">Regresar al índice</button>
+    <h1>Error</h1>
+    <p>Lo sentimos, se ha producido un error inesperado.</p>
+    <button onclick="window.location.href = 'RegistCafe.jsp';">Regresar al índice</button>
 </div>
 </body>
 </html>

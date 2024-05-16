@@ -38,8 +38,8 @@
 <body>
 <div class="box">
     <h1>¡Éxito!</h1>
-    <p>AGREGADO</p>
-    <button onclick="window.location.href = 'index.jsp';">Regresar al índice</button>
+    <p>CAFETIN AGREGADO CON EXITO</p>
+    <button onclick="window.location.href = 'RegistCafe.jsp';">Regresar al índice</button>
 </div>
 </body>
 </html>
