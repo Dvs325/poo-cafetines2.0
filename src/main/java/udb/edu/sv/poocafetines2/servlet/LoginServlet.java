@@ -39,6 +39,7 @@ public class LoginServlet extends HttpServlet {
                 Usuario usuario = new Usuario();
                 usuario.setUsername(resultSet.getString("usuario"));
                 usuario.setRol(resultSet.getString("cargo"));
+                usuario.setNombre(resultSet.getString("nombres"));
                 return usuario;
             }
         } catch (SQLException e) {
