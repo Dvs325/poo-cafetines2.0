@@ -51,6 +51,24 @@
             align-items: center;
             height: calc(100vh - 60px);
         }
+        .button-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+        .button {
+            background-color: green;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: darkgreen;
+        }
     </style>
     <meta charset="UTF-8">
     <title>Bienvenido</title>
@@ -71,8 +89,12 @@
     </div>
 </div>
 <div class="content">
-    <!-- Aquí puedes agregar cualquier contenido adicional que desees en el cuerpo de la página -->
-    <a href="RegistCafe.jsp">registrar cafetin</a>
+    <div class="button-container">
+        <a href="RegistCafe.jsp" class="button">Registrar Cafetín</a>
+        <a href="Eventos.jsp" class="button">Registrar Nuevo Evento</a>
+        <a href="Opcion3.jsp" class="button">Opción 3</a>
+        <a href="Opcion4.jsp" class="button">Opción 4</a>
+    </div>
 </div>
 <% } %>
 </body>
